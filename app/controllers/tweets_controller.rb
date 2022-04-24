@@ -28,3 +28,4 @@ class TweetsController < ApplicationController
     params.require(:tweet).permit(:name, :image, :text)
   end
 end
+test1
